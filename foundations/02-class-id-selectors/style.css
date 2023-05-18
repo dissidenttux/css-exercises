@@ -1,0 +1,19 @@
+.elem:nth-child(odd) {
+    background-color: #ff005d;
+    font-family: 'Verdana', 'DejaVu Sans', sans-serif;
+}
+
+#element2 {
+    color: #0000ff;
+    font-size: 36px;
+}
+
+.elem:nth-child(3) {
+    font-size: 24px;
+}
+
+#element4 {
+    background-color: #90ee90;
+    font-size: 24px;
+    font-weight: bold;
+}
