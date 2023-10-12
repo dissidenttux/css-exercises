@@ -19,6 +19,7 @@ body {
 
 .content {
   background: #e3f4ff;
+  display: block;
   margin: 8px auto;
   padding: 16px 8px;
 }
@@ -28,6 +29,7 @@ body {
   display: block;
   margin: 8px auto;
   text-align: center;
+  padding: 8px;
 }
 
 button {
@@ -35,5 +37,5 @@ button {
   border: 1px solid #eee;
   display: block;
   margin: 0 auto;
-  padding: 8px 16px;
+  padding: 8px 24px;
 }
