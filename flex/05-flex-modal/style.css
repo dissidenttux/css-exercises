@@ -48,6 +48,10 @@ body {
   justify-content: center;
   border: 1px solid #eee;
   padding: 0;
+  
+  /* SOLUTION: Established properties to be edited are commented above */
+  margin-left: auto;
+  
 }
 
 button {
@@ -66,4 +70,45 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+/* SOLUTION */
+
+.modal {
+  display: flex;
+}
+
+.submodal {
+  display: flex;
+  margin: 1rem;
+}
+
+.icon-divider {
+  margin-right: 1rem;
+}
+
+.text-divider {
+  flex-direction: column;
+}
+
+.button-divider {
+  margin-top: 1rem;
+}
+
+.modal .icon {
+  flex-shrink: 2;
+}
+
+.modal .text-divider {
+  flex-shrink: 3;
+}
+
+.header-button {
+  display: flex;
+}
+
+.header {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: .5rem;
 }
