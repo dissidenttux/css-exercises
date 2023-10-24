@@ -55,7 +55,7 @@ input {
 
 .header ul li a,
 .footer ul li a {
-  color: grey;
+  color: #333;
   text-decoration: none;
 }
 
