@@ -32,6 +32,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   padding: 1rem; /* 1rem = 16px */
+  margin-right: 174px;
 }
 
 .footer {
@@ -56,15 +57,17 @@ body {
   width: 24px;
   color: white;
   text-decoration: none;
-  padding: 16px;
   font-size: 24px;
 }
 
 .sidebar ul {
   list-style: none;
   padding: 0;
-  height: ;
   width: 300px;
+}
+
+.sidebar li {
+  margin: 12px 0;
 }
 
 .card {
