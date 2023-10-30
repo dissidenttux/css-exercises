@@ -64,10 +64,7 @@ body {
   list-style: none;
   padding: 0;
   height: ;
-}
-
-.sidebar li {
-  /*! height: 19px; */
+  width: 300px;
 }
 
 .card {
